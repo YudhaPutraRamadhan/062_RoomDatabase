@@ -24,11 +24,11 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.a078_roomdatabase.viewmodel.DetailSiswa
+import com.example.a078_roomdatabase.viewmodel.EntryViewModel
+import com.example.a078_roomdatabase.viewmodel.UIStateSiswa
 import com.example.room_database.R
 import com.example.room_database.view.route.DestinasiEntry
-import com.example.room_database.viewModel.DetailSiswa
-import com.example.room_database.viewModel.EntryViewModel
-import com.example.room_database.viewModel.UIStateSiswa
 import com.example.room_database.viewModel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
