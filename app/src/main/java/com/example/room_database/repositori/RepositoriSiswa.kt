@@ -11,4 +11,7 @@ interface RepositoriSiswa {
 
 class OffLineRepositoriSiswa(
     private val siswaDao: SiswaDao
-): RepositoriSiswa {}
+): RepositoriSiswa {
+    override fun getAllSiswaStream(): Flow<List<Siswa>> = siswaDao.getAllSiswa()
+    override fun suspend fun insertSiswa(siswa: Siswa) = siswaDao.insert(siswa)
+}
