@@ -13,5 +13,5 @@ class OffLineRepositoriSiswa(
     private val siswaDao: SiswaDao
 ): RepositoriSiswa {
     override fun getAllSiswaStream(): Flow<List<Siswa>> = siswaDao.getAllSiswa()
-    override fun suspend fun insertSiswa(siswa: Siswa) = siswaDao.insert(siswa)
+    override suspend fun insertSiswa(siswa: Siswa) = siswaDao.insert(siswa)
 }
