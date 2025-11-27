@@ -36,7 +36,7 @@ import com.example.room_database.R
 import com.example.room_database.room.Siswa
 import com.example.room_database.view.route.DestinasiHome
 import com.example.room_database.viewModel.HomeViewModel
-import com.example.room_database.viewModel.provider.PenyediaViewModel
+import com.example.room_database.viewmodel.provider.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
