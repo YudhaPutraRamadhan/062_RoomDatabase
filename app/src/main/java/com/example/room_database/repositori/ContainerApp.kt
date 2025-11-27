@@ -1,5 +1,6 @@
 package com.example.room_database.repositori
 
+import android.app.Application
 import android.content.Context
 import com.example.room_database.room.DatabaseSiswa
 
@@ -14,3 +15,7 @@ class ContainerDataApp(private val context: Context):
                 DatabaseSiswa.getDatabase(context).siswaDao())
         }
     }
+
+class AplikasiSiswa : Application() {
+
+}
