@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.room_database.repositori.RepositoriSiswa
 import com.example.room_database.view.route.DestinasiDetailSiswa
 import com.example.room_database.viewModel.DetailSiswa
+import com.example.room_database.viewModel.toDetailSiswa
 import com.example.room_database.viewModel.toSiswa
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
