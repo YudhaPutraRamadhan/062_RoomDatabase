@@ -9,7 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.room_database.view.route.DestinasiDetailSiswa
-import com.example.room_database.viewModel.EditViewModel
+import com.example.room_database.viewmodel.EditViewModel
 import com.example.room_database.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 

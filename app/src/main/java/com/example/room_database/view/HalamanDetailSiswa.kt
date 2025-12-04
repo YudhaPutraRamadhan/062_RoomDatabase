@@ -38,10 +38,10 @@ import com.example.room_database.R
 import com.example.room_database.room.Siswa
 import com.example.room_database.view.SiswaTopAppBar
 import com.example.room_database.view.route.DestinasiDetailSiswa
-import com.example.room_database.viewModel.toSiswa
 import com.example.room_database.viewmodel.DetailSiswaUiState
 import com.example.room_database.viewmodel.DetailViewModel
 import com.example.room_database.viewmodel.provider.PenyediaViewModel
+import com.example.room_database.viewmodel.toSiswa
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,4 +1,4 @@
-package com.example.room_database.viewModel
+package com.example.room_database.viewmodel
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
