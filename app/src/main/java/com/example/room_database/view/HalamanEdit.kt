@@ -19,7 +19,7 @@ fun EditSiswaScreen(
     navigateBack: () -> Unit,
     onNavigateUp: () -> Unit,
     modifier: Modifier = Modifier,
-    viemModel: EditViewModel = viewModel(factory = PenyediaViewModel.Factory)
+    viewModel: EditViewModel = viewModel(factory = PenyediaViewModel.Factory)
 ) {
     Scaffold(
         topBar = {
